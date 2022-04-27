@@ -1,0 +1,6 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\HuuThuat\source\repos\BTL_KTLT\hoocne test 2\Source.cpp(54,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\hoocne test 2\Source.cpp(59,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\hoocne test 2\Source.cpp(61,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  hoocne test 2.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\hoocne test 2.exe

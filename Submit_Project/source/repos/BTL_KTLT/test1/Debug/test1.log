@@ -1,0 +1,5 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\HuuThuat\source\repos\BTL_KTLT\test1\Source.cpp(133,12): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1252)
+C:\Users\HuuThuat\source\repos\BTL_KTLT\test1\Source.cpp(133,12): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+  test1.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\test1.exe

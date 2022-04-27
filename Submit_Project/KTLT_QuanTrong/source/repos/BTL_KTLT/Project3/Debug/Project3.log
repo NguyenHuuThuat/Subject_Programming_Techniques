@@ -1,0 +1,13 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(60,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(64,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(66,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(85,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(87,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(91,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(95,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(98,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(102,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Project3\Source.cpp(378,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Project3.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\Project3.exe

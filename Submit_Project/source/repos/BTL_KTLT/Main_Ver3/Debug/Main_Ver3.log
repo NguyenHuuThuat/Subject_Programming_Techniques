@@ -1,0 +1,32 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(118,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(185,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(69,11): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(242,13): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(246,14): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(325,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(330,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(332,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(976,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1027,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1051,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1048,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1048,6): warning C4101: 'i': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1079,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1076,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1076,6): warning C4101: 'i': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1106,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1103,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1103,6): warning C4101: 'i': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1134,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1131,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1131,6): warning C4101: 'i': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1162,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1183,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1194,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1234,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1275,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1315,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver3\Source.cpp(1355,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Main_Ver3.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\Main_Ver3.exe

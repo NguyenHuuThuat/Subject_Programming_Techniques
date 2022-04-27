@@ -1,0 +1,177 @@
+/////////bai 1
+#include<stdio.h>
+#include<math.h>
+#include <stdbool.h>
+
+// dau vao mang can truyen gia tri
+// dau ra mang gom 90 phan tu la so co 2 chu so
+void nhapSo(int x[]) {
+	int j;
+	int i = 0;
+	for (j = 10; j <= 99; j++) {
+		x[i] = j;
+		i = i + 1;
+	}
+}
+// dau vao 2 mang ban dau
+// dau ra 2 mang dao nhau
+int soDao(int x) {
+	int y = 0;
+	
+	while (x > 0)
+	{
+		y = 10 * y + (x % 10);
+		x = x / 10;
+	}
+	return y;
+}
+
+// tim ucln
+// dau ra ucln, -1 loi 
+int ucln(int a, int b) {
+	if ((a > 0) && (b > 0)) {
+		// neu a  <= b thi doi gia tri
+		if (a <= b) { // doi gia tri a va b
+			int tmp = a;
+			a = b;
+			b = tmp;
+		}
+		if (b == 0) {
+			//printf("KQ: %d\n", a);
+			return a;
+		}
+		int r;
+		while (b != 0) {
+			r = a % b;
+			a = b;
+			b = r;
+		}
+		//printf("KQ: %d\n", a);
+		return a;
+	}
+	else {
+		//printf("Dau vao k hop le \n");
+		return -1;
+	}
+}
+bool NTCN(int x, int y) {
+	int i;
+	int kq;
+	kq = ucln(x, y);
+	if (kq == 1) {
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+
+bool soDaoNTCN(int x) {
+	if (NTCN (x, soDao(x))) {
+		return true;
+	}
+	else
+		return false;
+}
+
+int Tim(int s[]) {
+	int x;
+	int n = 0;
+	for (x = 10; x < 100; x++) {
+		if (soDaoNTCN(x)) {
+			s[n] = x;
+			n = n + 1;
+		}
+	}
+	return n;
+}
+
+
+int main() {
+	int mangDauVao[80];
+	int n = Tim(mangDauVao);
+
+	for (int  i = 0; i < n; i++)
+	{
+		printf("%d \t", mangDauVao[i]);
+	}
+
+	
+}
+
+
+
+
+///////////bai 2
+
+#include<stdio.h>
+
+
+void NhapvaInPhanSo(float *TS, float *MS) {
+	printf("Nhap tu so cua phan so: ");
+	scanf_s("%f", TS);
+	do
+	{
+		printf("Nhap mau so cua phan so: ");
+		scanf_s("%f", MS);
+	} while (*MS == 0);
+	printf("Phan so la: %f/%f \n", *TS, *MS);
+}
+
+void Tong() {
+	printf("Phep cong phan so: \n");
+	float TS1, MS1, TS2, MS2, TSSum,MSSum;
+	printf("Nhap phan so thu 1 : \n");
+	NhapvaInPhanSo(&TS1, &MS1);
+	printf("Nhap phan so thu 2 : \n");
+	NhapvaInPhanSo(&TS2, &MS2);
+	TSSum = TS1 * MS2 + TS2 * MS1;
+	MSSum = MS1 * MS2;
+	printf("KQ %f/%f\n", TSSum, MSSum);
+}
+
+void Hieu() {
+	printf("Phep tru phan so: \n");
+	float TS1, MS1, TS2, MS2, TSTru, MSTru;
+	printf("Nhap phan so thu 1 : \n");
+	NhapvaInPhanSo(&TS1, &MS1);
+	printf("Nhap phan so thu 2 : \n");
+	NhapvaInPhanSo(&TS2, &MS2);
+	TSTru = TS1 * MS2 - TS2 * MS1;
+	MSTru = MS1 * MS2;
+	printf("KQ %f/%f\n", TSTru, MSTru);
+}
+
+void Nhan() {
+	printf("Phep nhan phan so: \n");
+	float TS1, MS1, TS2, MS2, TSNhan, MSNhan;
+	printf("Nhap phan so thu 1 : \n");
+	NhapvaInPhanSo(&TS1, &MS1);
+	printf("Nhap phan so thu 2 : \n");
+	NhapvaInPhanSo(&TS2, &MS2);
+	TSNhan = TS1*TS2;
+	MSNhan = MS1 * MS2;
+	printf("KQ %f/%f\n", TSNhan, MSNhan);
+}
+
+void Chia() {
+	printf("Phep chia phan so: \n");
+	float TS1, MS1, TS2, MS2, TSChia, MSChia;
+	printf("Nhap phan so thu 1 : \n");
+	NhapvaInPhanSo(&TS1, &MS1);
+	printf("Nhap phan so thu 2 : \n");
+	NhapvaInPhanSo(&TS2, &MS2);
+	if (TS2 == 0) {
+		printf("Loi! tu so phan so 2 bang 0 \n");
+	}
+	else {
+		TSChia = TS1 * MS2;
+		MSChia = MS1 * TS2;
+		printf("KQ %f/%f\n", TSChia, MSChia);
+	}
+}
+
+int main() {
+	Tong();
+}

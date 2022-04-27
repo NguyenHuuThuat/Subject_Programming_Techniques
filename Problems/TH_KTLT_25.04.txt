@@ -1,0 +1,229 @@
+
+-----BAI 1
+/*Viết chương trình có hàm giải hệ phương trình :
+{a.x + b.y = c; d.x + e.y = f}*/
+
+#include<stdio.h>
+
+
+int GiaiHPT(float a, float b, float c, float d, float e, float f);
+
+int main() {
+	float a, b, c, d, e, f;
+	printf("Nhap cac he so cua PT ax + by = c: \n");
+	scanf_s("%f%f%f", &a, &b, &c);
+	printf("Nhap cac he so cua PT dx + ey = f: \n");
+	scanf_s("%f%f%f", &d, &e, &f);
+	GiaiHPT(a, b, c, d, e, f);
+
+
+}
+
+int GiaiHPT(float a, float b, float c, float d, float e, float f) {
+	float d1, d2, d3;
+	float x, y;
+	
+
+	//Công thức Cramer2 dùng tính hệ phương trình 2 ẩn
+	d1 = a * e - b * d;
+	d2 = c * e - b * f;
+	d3 = a * f - c * d;
+
+	//giải hpt
+	if (d1 != 0) {
+		x = d2 / d1;
+		y = d3 / d1;
+		printf("Nghiem cua HPT la: %f%f", x, y);
+	}
+	else {
+		if (d2 + d3 == 0)
+			printf("He phuong trinh co vo so nghiem");
+		else
+			printf("He phuong trinh vo nghiem");
+	}
+	return 0;
+}
+
+
+
+
+--------------BAI 2
+/*Viết chương trình có hàm chuyển một chữ cái thường
+(hoa) nhập vào từ bàn phím thành chữ cái hoa (thường)*/
+
+#include<stdio.h>
+#include<conio.h>
+
+char chuyenKyTu(char c1);
+
+int main() {
+	char c1;
+	printf("Nhap ky tu can chuyen doi: ");
+	scanf_s("%c", &c1);
+
+	if (chuyenKyTu(c1) == -1){
+		printf("Ky tu %c khong phai la chu cai thuong", c1);
+	}
+	else {
+		printf("ky tu %c sau khi doi thanh ky tu hoa la: %c ", c1, chuyenKyTu(c1));
+	}
+	return 0;
+}
+
+
+char chuyenKyTu(char c1){
+	
+	if (c1 >= 'a' && c1 <= 'z') {
+		return c1 - 32;
+	}
+	else {
+		return -1;
+	}
+
+}
+
+
+
+
+--------BAI 3
+/*Viết chương trình có hàm tìm gần đúng nghiệm của
+phương trình f(x) = 0 trên [a, b] bằng phương pháp chia
+đôi. Giả thiết f(x) liên tục, đơn điệu trên [a, b] và f(a).f(b) < 0*/
+
+#include<stdio.h>
+#include<math.h>
+#include <stdlib.h>
+
+//khai bao nguyen mau ham
+double ham(double x);
+double nghiem(double (*f)(double x), double a, double b, double eps);
+
+int main() {
+	double epsilon, a, b;
+	printf("Nhap sai so muc tieu: ");
+	scanf_s("%lf", &epsilon);
+
+	printf("Nhap khoang phan ly (a,b): \n");
+	printf("a = ");
+	scanf_s("%lf", &a);
+	printf("b = ");
+	scanf_s("%lf", &b);
+
+	printf("%lf\n\n", nghiem(ham, a, b,epsilon));   //a=0,b=10
+	return 0;
+}
+
+//khai bao ham
+double ham(double x) {
+	return ((x * x) - 2);
+}
+
+double nghiem(double (*f)(double x), double a, double b, double eps) {
+	while (b - a > eps) {
+		if (f((a + b) / 2.0) * f(a) < 0) {
+			b = (a + b) / 2;
+		}
+		else {
+			a = (a + b) / 2;
+		}
+	}
+	if (fabs(f(b)) <= eps) {
+		printf("Nghiem gan dung cua PT la: %lf\n", b);
+	}
+	else {
+		printf("Nghiem gan dung cua PT la: %lf", a);
+	}
+	return 0;
+}
+
+
+
+
+
+-------BAI 4
+/*Xây dựng các hàm số sau bằng phương pháp đệ quy:
+
+  f(x,n) = xn , (n >=0)
+
+  s(n) = (2n)!*/
+
+#include<stdio.h>
+float luythua(float x, int n);
+int giaithua(int n);
+
+int main(){
+    float x;
+    int n;
+    printf("Nhap x: ");
+    scanf_s("%f", &x);
+    printf("Nhap n: ");
+    scanf_s("%d", &n);
+    printf("x^n = %f", luythua(x, n));
+    printf("\n\n(2n)! = %d", giaithua(n));
+    return 0;
+}
+
+
+
+float luythua(float x,int n) {
+    if (n == 0) {
+        return 1;
+    }
+    if (n < 0) {
+        return luythua(x, n + 1) * 1 / x;
+    }
+    return luythua(x, n - 1) * x;
+}
+
+int giaithua(int n) {
+    if (n == 0) {
+        return 1;
+    }
+    return giaithua(n - 1) * (2 * n) * (2 * n - 1);
+}
+
+
+
+
+
+----BAI 5
+/*5. Viết chương trình sử dụng hàm đệ quy để tính UCLN của hai số nguyên dương theo quy tắc sau:
+
+•Nếu x= y thì UCLN(x, y) = x
+
+•Nếu x > y thì UCLN(x, y) = UCLN(x mod y, y);
+
+•Nếu x < y thì UCLN(x, y) = UCLN(x, y mod x);*/
+
+#include<stdio.h>
+int UCLN(int x, int y);
+
+
+int main() {
+	int x, y;
+	printf("Nhap 2 so x va y: ");
+	scanf_s("%d%d", &x, &y);
+	printf("UCLN cua x va y la: %d", UCLN(x, y));
+	return 0;
+}
+
+int UCLN(int x, int y) {
+	if (x == y) {
+		return x;
+	}
+	else if (x > y) {
+		int tmpMod = x % y;
+		if (tmpMod == 0) {
+			return y;
+		}
+		return UCLN(tmpMod, y);
+
+	}
+	else {
+		int tmpMod = y % x;
+		if (tmpMod == 0) {
+			return x;
+		}
+		return UCLN(x, tmpMod);
+	}
+}

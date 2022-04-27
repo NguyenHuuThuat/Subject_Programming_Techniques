@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\HuuThuat\source\repos\LearnC\Project23\Source.cpp(22,9): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type '__int64'
+C:\Users\HuuThuat\source\repos\LearnC\Project23\Source.cpp(22,9): message : consider using '%lld' in the format string
+C:\Users\HuuThuat\source\repos\LearnC\Project23\Source.cpp(22,9): message : consider using '%I64d' in the format string
+  Project23.vcxproj -> C:\Users\HuuThuat\source\repos\LearnC\Debug\Project23.exe

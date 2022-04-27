@@ -1,0 +1,25 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(101,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(155,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(59,11): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(215,13): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(219,14): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(298,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(303,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(305,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(942,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(970,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(993,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(990,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(990,6): warning C4101: 'i': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1020,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1017,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1017,6): warning C4101: 'i': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1046,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1043,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1043,6): warning C4101: 'i': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1073,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1070,9): warning C4101: 'j': unreferenced local variable
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Main_Ver_2\Source.cpp(1070,6): warning C4101: 'i': unreferenced local variable
+  Main_Ver_2.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\Main_Ver_2.exe

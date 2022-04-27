@@ -1,0 +1,7 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Bang_Sai_Phan\Source.cpp(12,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Bang_Sai_Phan\Source.cpp(17,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Bang_Sai_Phan\Source.cpp(19,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Bang_Sai_Phan\Source.cpp(43,5): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  Bang_Sai_Phan.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\Bang_Sai_Phan.exe

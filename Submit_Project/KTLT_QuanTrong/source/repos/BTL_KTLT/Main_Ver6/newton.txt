@@ -1,0 +1,355 @@
+*.Da lua chon Item 1: Nhap cac moc (x,y) 
+  Bang cac moc noi suy da nhap la: 
+	x	-4.00	-2.00	0.00	2.00	4.00	
+   _____________________________________________________________________
+	y	557.00	75.00	1.00	-1.00	117.00	
+_Goi y_: + Neu la moc cach deu chon Item 3 de in bang sai phan thuan !
+         + Neu la moc khong cach deu chon Item 2 de in bang ty hieu thuan !
+
+*.Da lua chon Item 2: Lap va in ra bang ty hieu thuan  
+
+
+Bang ty hieu Thuan la: 
+
+	 x	 Y	 T^1	 T^2	 T^3	 T^4
+	-4.00	557.00	-241.00	51.00	-7.00	1.00	
+	-2.00	75.00	-37.00	9.00	1.00	
+	0.00	1.00	-1.00	15.00	
+	2.00	-1.00	59.00	
+	4.00	117.00	
+
+_Goi y_: + Co the tiep tuc chon Item 4 ung voi truong hop bang ty hieu Thuan va In ngay da thuc noi suy newton tien moc bat ky !
+       + hoac Item 5 neu muon in lai bang ty hieu Nghich va In ngay da thuc noi suy newton lui moc bat ky !
+
+*.Da lua chon Item 3: Lap va in ra bang sai phan thuan 
+
+
+Bang sai phan Thuan la: 
+
+	 x	 Y	 Y^1	 Y^2	 Y^3	 Y^4
+	-4.00	557.00	-482.00	408.00	-336.00	384.00	
+	-2.00	75.00	-74.00	72.00	48.00	
+	0.00	1.00	-2.00	120.00	
+	2.00	-1.00	118.00	
+	4.00	117.00	
+
+_Goi y_: + Co the tiep tuc chon Item 6 ung voi truong hop bang sai phan Thuan va In ngay da thuc noi suy newton tien moc cach deu !
+         + hoac Item 7 neu muon in lai bang sai phan Nghich va va In ngay da thuc noi suy newton lui moc cach deu !
+
+*.Da lua chon Item 4: Lap va in ra da thuc noi suy Newton tien bat ky  
+
+Da thuc noi suy Newton tien moc bat ky la: 
+P(x) = 557.00 -482.00(x + 4.00) + 408.00(x + 4.00)(x + 2.00)-336.00(x + 4.00)(x + 2.00)x + 384.00(x + 4.00)(x + 2.00)x(x - 2.00)
+_Goi y_: Tiep tuc chon Item 8 neu ban muon tinh gia tri cua da thuc tai 1 diem bang so do Hoocne !
+
+*. Da chon Item 8: In ra he so cua da thuc voi so mu lan luot 
+                   Tinh gia tri cua da thuc tai 1 diem bang so do hoocne 
+
+
+Ma tran he so la: 
+
+	557.00	0.00	0.00	0.00	0.00
+	-1928.00	-482.00	0.00	0.00	0.00
+	3264.00	2448.00	408.00	0.00	0.00
+	0.00	-2688.00	-2016.00	-336.00	0.00
+	0.00	-6144.00	-1536.00	1536.00	384.00
+He so mu cua da thuc la: 
+
+Mu 0 : 1893.00
+Mu 1 : -6866.00
+Mu 2 : -3144.00
+Mu 3 : 1200.00
+Mu 4 : 384.00
+
+
+Nhap gia tri can tinh : 
+1.000000
+Qua trinh tinh toan trong luoc do Hoocne: 
+
+Qua trinh tinh midP la: 
+midP(1) = 384.00
+midP(2) = 1584.00
+midP(3) = -1560.00
+midP(4) = -8426.00
+
+
+Qua trinh tinh p la: 
+p(0) =  384.00
+p(1) = 1584.00
+p(2) = -1560.00
+p(3) = -8426.00
+p(4) = -6533.00
+
+384.00	1200.00	-3144.00	-6866.00	1893.00
+
+	384.00	1584.00	-1560.00	-8426.00	
+-------------------------------------------------------------------
+384.00	1584.00	-1560.00	-8426.00	-6533.00	
+Gia tri cua da thuc tai 1.00 la: f( 1.00 ) = -6533.00*.Da lua chon Item 3: Lap va in ra bang sai phan thuan 
+
+
+Bang sai phan Thuan la: 
+
+	 x	 Y	 Y^1	 Y^2	 Y^3	 Y^4
+	-4.00	557.00	-482.00	408.00	-336.00	384.00	
+	-2.00	75.00	-74.00	72.00	48.00	
+	0.00	1.00	-2.00	120.00	
+	2.00	-1.00	118.00	
+	4.00	117.00	
+
+_Goi y_: + Co the tiep tuc chon Item 6 ung voi truong hop bang sai phan Thuan va In ngay da thuc noi suy newton tien moc cach deu !
+         + hoac Item 7 neu muon in lai bang sai phan Nghich va va In ngay da thuc noi suy newton lui moc cach deu !
+
+*.Da lua chon Item 5: Lap Bang ty hieu NGHICH va in ra da thuc noi suy Newton lui bat ky 
+
+
+Bang ty hieu NGHICH la: 
+
+	 x	 Y	 T^1	 T^2	 T^3	 T^4
+	-4.00	557.00	
+	-2.00	75.00	-241.00	
+	0.00	1.00	-37.00	51.00	
+	2.00	-1.00	-1.00	9.00	-7.00	
+	4.00	117.00	59.00	15.00	1.00	1.00	
+
+
+
+Da thuc noi suy Newton lui voi moc bat ky la: 
+P(x) = 117.00 + 59.00(x - 4.00) + 15.00(x - 4.00)(x - 2.00) + 1.00(x - 4.00)(x - 2.00)x + 1.00(x - 4.00)(x - 2.00)x(x + 2.00)
+_Goi y_: Tiep tuc chon Item 8 neu ban muon tinh gia tri cua da thuc tai 1 diem bang so do Hoocne !
+
+*. Da chon Item 8: In ra he so cua da thuc voi so mu lan luot 
+                   Tinh gia tri cua da thuc tai 1 diem bang so do hoocne 
+
+
+Ma tran he so la: 
+
+	557.00	0.00	0.00	0.00	0.00
+	-1928.00	-482.00	0.00	0.00	0.00
+	3264.00	2448.00	408.00	0.00	0.00
+	0.00	-2688.00	-2016.00	-336.00	0.00
+	0.00	-6144.00	-1536.00	1536.00	384.00
+He so mu cua da thuc la: 
+
+Mu 0 : 1893.00
+Mu 1 : -6866.00
+Mu 2 : -3144.00
+Mu 3 : 1200.00
+Mu 4 : 384.00
+
+*.Da lua chon Item 1: Nhap cac moc (x,y) 
+  Bang cac moc noi suy da nhap la: 
+	x	-4.00	-2.00	0.00	2.00	4.00	
+   _____________________________________________________________________
+	y	557.00	75.00	1.00	-1.00	117.00	
+_Goi y_: + Neu la moc cach deu chon Item 3 de in bang sai phan thuan !
+         + Neu la moc khong cach deu chon Item 2 de in bang ty hieu thuan !
+
+*.Da lua chon Item 2: Lap va in ra bang ty hieu thuan  
+
+
+Bang ty hieu Thuan la: 
+
+	 x	 Y	 T^1	 T^2	 T^3	 T^4
+	-4.00	557.00	-241.00	51.00	-7.00	1.00	
+	-2.00	75.00	-37.00	9.00	1.00	
+	0.00	1.00	-1.00	15.00	
+	2.00	-1.00	59.00	
+	4.00	117.00	
+
+_Goi y_: + Co the tiep tuc chon Item 4 ung voi truong hop bang ty hieu Thuan va In ngay da thuc noi suy newton tien moc bat ky !
+       + hoac Item 5 neu muon in lai bang ty hieu Nghich va In ngay da thuc noi suy newton lui moc bat ky !
+
+*.Da lua chon Item 4: Lap va in ra da thuc noi suy Newton tien bat ky  
+
+Da thuc noi suy Newton tien moc bat ky la: 
+P(x) = 557.00 -241.00(x + 4.00) + 51.00(x + 4.00)(x + 2.00)-7.00(x + 4.00)(x + 2.00)x + 1.00(x + 4.00)(x + 2.00)x(x - 2.00)
+_Goi y_: Tiep tuc chon Item 8 neu ban muon tinh gia tri cua da thuc tai 1 diem bang so do Hoocne !
+
+*. Da chon Item 8: In ra he so cua da thuc voi so mu lan luot 
+                   Tinh gia tri cua da thuc tai 1 diem bang so do hoocne 
+
+
+Ma tran he so la: 
+
+	557.00	0.00	0.00	0.00	0.00
+	-964.00	-241.00	0.00	0.00	0.00
+	408.00	306.00	51.00	0.00	0.00
+	0.00	-56.00	-42.00	-7.00	0.00
+	0.00	-16.00	-4.00	4.00	1.00
+He so mu cua da thuc la: 
+
+Mu 0 : 1.00
+Mu 1 : -7.00
+Mu 2 : 5.00
+Mu 3 : -3.00
+Mu 4 : 1.00
+
+
+Nhap gia tri can tinh : 
+2.000000
+Qua trinh tinh toan trong luoc do Hoocne: 
+
+Qua trinh tinh midP la: 
+midP(1) = 2.00
+midP(2) = -2.00
+midP(3) = 6.00
+midP(4) = -2.00
+
+
+Qua trinh tinh p la: 
+p(0) =  1.00
+p(1) = -1.00
+p(2) = 3.00
+p(3) = -1.00
+p(4) = -1.00
+
+1.00	-3.00	5.00	-7.00	1.00
+
+	2.00	-2.00	6.00	-2.00	
+-------------------------------------------------------------------
+1.00	-1.00	3.00	-1.00	-1.00	
+Gia tri cua da thuc tai 2.00 la: f( 2.00 ) = -1.00*.Da lua chon Item 3: Lap va in ra bang sai phan thuan 
+
+
+Bang sai phan Thuan la: 
+
+	 x	 Y	 Y^1	 Y^2	 Y^3	 Y^4
+	-4.00	557.00	-482.00	408.00	-336.00	384.00	
+	-2.00	75.00	-74.00	72.00	48.00	
+	0.00	1.00	-2.00	120.00	
+	2.00	-1.00	118.00	
+	4.00	117.00	
+
+_Goi y_: + Co the tiep tuc chon Item 6 ung voi truong hop bang sai phan Thuan va In ngay da thuc noi suy newton tien moc cach deu !
+         + hoac Item 7 neu muon in lai bang sai phan Nghich va va In ngay da thuc noi suy newton lui moc cach deu !
+
+*.Da lua chon Item 4: Lap va in ra da thuc noi suy Newton tien bat ky  
+
+Da thuc noi suy Newton tien moc bat ky la: 
+P(x) = 557.00 -482.00(x + 4.00) + 408.00(x + 4.00)(x + 2.00)-336.00(x + 4.00)(x + 2.00)x + 384.00(x + 4.00)(x + 2.00)x(x - 2.00)
+_Goi y_: Tiep tuc chon Item 8 neu ban muon tinh gia tri cua da thuc tai 1 diem bang so do Hoocne !
+
+*. Da chon Item 8: In ra he so cua da thuc voi so mu lan luot 
+                   Tinh gia tri cua da thuc tai 1 diem bang so do hoocne 
+
+
+Ma tran he so la: 
+
+	557.00	0.00	0.00	0.00	0.00
+	-1928.00	-482.00	0.00	0.00	0.00
+	3264.00	2448.00	408.00	0.00	0.00
+	0.00	-2688.00	-2016.00	-336.00	0.00
+	0.00	-6144.00	-1536.00	1536.00	384.00
+He so mu cua da thuc la: 
+
+Mu 0 : 1893.00
+Mu 1 : -6866.00
+Mu 2 : -3144.00
+Mu 3 : 1200.00
+Mu 4 : 384.00
+
+
+Nhap gia tri can tinh : 
+2.000000
+Qua trinh tinh toan trong luoc do Hoocne: 
+
+Qua trinh tinh midP la: 
+midP(1) = 768.00
+midP(2) = 3936.00
+midP(3) = 1584.00
+midP(4) = -10564.00
+
+
+Qua trinh tinh p la: 
+p(0) =  384.00
+p(1) = 1968.00
+p(2) = 792.00
+p(3) = -5282.00
+p(4) = -8671.00
+
+384.00	1200.00	-3144.00	-6866.00	1893.00
+
+	768.00	3936.00	1584.00	-10564.00	
+-------------------------------------------------------------------
+384.00	1968.00	792.00	-5282.00	-8671.00	
+Gia tri cua da thuc tai 2.00 la: f( 2.00 ) = -8671.00*.Da lua chon Item 3: Lap va in ra bang sai phan thuan 
+
+
+Bang sai phan Thuan la: 
+
+	 x	 Y	 Y^1	 Y^2	 Y^3	 Y^4
+	-4.00	557.00	-482.00	408.00	-336.00	384.00	
+	-2.00	75.00	-74.00	72.00	48.00	
+	0.00	1.00	-2.00	120.00	
+	2.00	-1.00	118.00	
+	4.00	117.00	
+
+_Goi y_: + Co the tiep tuc chon Item 6 ung voi truong hop bang sai phan Thuan va In ngay da thuc noi suy newton tien moc cach deu !
+         + hoac Item 7 neu muon in lai bang sai phan Nghich va va In ngay da thuc noi suy newton lui moc cach deu !
+
+*.Da lua chon Item 2: Lap va in ra bang ty hieu thuan  
+
+
+Bang ty hieu Thuan la: 
+
+	 x	 Y	 T^1	 T^2	 T^3	 T^4
+	-4.00	557.00	-241.00	51.00	-7.00	1.00	
+	-2.00	75.00	-37.00	9.00	1.00	
+	0.00	1.00	-1.00	15.00	
+	2.00	-1.00	59.00	
+	4.00	117.00	
+
+_Goi y_: + Co the tiep tuc chon Item 4 ung voi truong hop bang ty hieu Thuan va In ngay da thuc noi suy newton tien moc bat ky !
+       + hoac Item 5 neu muon in lai bang ty hieu Nghich va In ngay da thuc noi suy newton lui moc bat ky !
+
+*.Da lua chon Item 4: Lap va in ra da thuc noi suy Newton tien bat ky  
+
+Da thuc noi suy Newton tien moc bat ky la: 
+P(x) = 557.00 -241.00(x + 4.00) + 51.00(x + 4.00)(x + 2.00)-7.00(x + 4.00)(x + 2.00)x + 1.00(x + 4.00)(x + 2.00)x(x - 2.00)
+_Goi y_: Tiep tuc chon Item 8 neu ban muon tinh gia tri cua da thuc tai 1 diem bang so do Hoocne !
+
+*. Da chon Item 8: In ra he so cua da thuc voi so mu lan luot 
+                   Tinh gia tri cua da thuc tai 1 diem bang so do hoocne 
+
+
+Ma tran he so la: 
+
+	557.00	0.00	0.00	0.00	0.00
+	-964.00	-241.00	0.00	0.00	0.00
+	408.00	306.00	51.00	0.00	0.00
+	0.00	-56.00	-42.00	-7.00	0.00
+	0.00	-16.00	-4.00	4.00	1.00
+He so mu cua da thuc la: 
+
+Mu 0 : 1.00
+Mu 1 : -7.00
+Mu 2 : 5.00
+Mu 3 : -3.00
+Mu 4 : 1.00
+
+
+Nhap gia tri can tinh : 
+5.000000
+Qua trinh tinh toan trong luoc do Hoocne: 
+
+Qua trinh tinh midP la: 
+midP(1) = 5.00
+midP(2) = 10.00
+midP(3) = 75.00
+midP(4) = 340.00
+
+
+Qua trinh tinh p la: 
+p(0) =  1.00
+p(1) = 2.00
+p(2) = 15.00
+p(3) = 68.00
+p(4) = 341.00
+
+1.00	-3.00	5.00	-7.00	1.00
+
+	5.00	10.00	75.00	340.00	
+-------------------------------------------------------------------
+1.00	2.00	15.00	68.00	341.00	
+Gia tri cua da thuc tai 5.00 la: f( 5.00 ) = 341.00

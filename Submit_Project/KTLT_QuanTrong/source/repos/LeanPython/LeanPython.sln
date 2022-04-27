@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GiaiPTBac2", "LeanPython\GiaiPTBac2.pyproj", "{CF8419CB-E89B-4EB3-AA0D-8FB048378614}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OOP", "Fibonaci\OOP.pyproj", "{342615A3-B43A-4471-83DA-EFD1E3BFC6B9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Class", "Class\Class.pyproj", "{F416D47E-A54B-44B6-89C2-0FFCD0D34672}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "constructor", "constructor\constructor.pyproj", "{41888717-1EA1-436B-9EE8-7B2C9784F545}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KeThua", "KeThua\KeThua.pyproj", "{0AA85A62-27BE-49D8-BBB5-7F40D815CF9F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai01", "Bai01\Bai01.pyproj", "{D31D7734-32B4-48A0-9552-96D8791EE36A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai02", "Bai2\Bai02.pyproj", "{BD29BF12-7BE7-4821-B6FF-5451EFC5DEE4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai03", "Bai 3\Bai03.pyproj", "{FD0DD0CD-A595-406E-9926-5D3C67D10234}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai04", "Bai04\Bai04.pyproj", "{640F4E33-2AC5-49D6-801D-C41665AB71A2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai05", "Bai05\Bai05.pyproj", "{872AB945-FA6C-4BB4-8118-E09EF66697C8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai06", "Bai06\Bai06.pyproj", "{F22107D6-E302-4077-A3B8-5E9FB69A9AB6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai07", "Bai08\Bai07.pyproj", "{674A9364-2480-4941-9BEB-C83005D5B88F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai08", "Bai08\Bai08.pyproj", "{5543DE90-FBB0-4930-BAF5-11937E1E3767}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bai09", "Bai09\Bai09.pyproj", "{CDE36884-64F7-482C-9B54-FA47D11279D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF8419CB-E89B-4EB3-AA0D-8FB048378614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8419CB-E89B-4EB3-AA0D-8FB048378614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342615A3-B43A-4471-83DA-EFD1E3BFC6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342615A3-B43A-4471-83DA-EFD1E3BFC6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F416D47E-A54B-44B6-89C2-0FFCD0D34672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F416D47E-A54B-44B6-89C2-0FFCD0D34672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41888717-1EA1-436B-9EE8-7B2C9784F545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41888717-1EA1-436B-9EE8-7B2C9784F545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA85A62-27BE-49D8-BBB5-7F40D815CF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA85A62-27BE-49D8-BBB5-7F40D815CF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31D7734-32B4-48A0-9552-96D8791EE36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31D7734-32B4-48A0-9552-96D8791EE36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD29BF12-7BE7-4821-B6FF-5451EFC5DEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD29BF12-7BE7-4821-B6FF-5451EFC5DEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0DD0CD-A595-406E-9926-5D3C67D10234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0DD0CD-A595-406E-9926-5D3C67D10234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640F4E33-2AC5-49D6-801D-C41665AB71A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640F4E33-2AC5-49D6-801D-C41665AB71A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872AB945-FA6C-4BB4-8118-E09EF66697C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872AB945-FA6C-4BB4-8118-E09EF66697C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22107D6-E302-4077-A3B8-5E9FB69A9AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22107D6-E302-4077-A3B8-5E9FB69A9AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674A9364-2480-4941-9BEB-C83005D5B88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674A9364-2480-4941-9BEB-C83005D5B88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5543DE90-FBB0-4930-BAF5-11937E1E3767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5543DE90-FBB0-4930-BAF5-11937E1E3767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE36884-64F7-482C-9B54-FA47D11279D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE36884-64F7-482C-9B54-FA47D11279D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {996F0DC8-E817-440B-932E-84CC0A182703}
+	EndGlobalSection
+EndGlobal

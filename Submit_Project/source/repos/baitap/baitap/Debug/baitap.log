@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\HuuThuat\source\repos\baitap\baitap\Source.c(30,9): warning C4477:  'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 1 has type 'double'
+C:\Users\HuuThuat\source\repos\baitap\baitap\Source.c(31,9): warning C4477:  'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 1 has type 'double'
+C:\Users\HuuThuat\source\repos\baitap\baitap\Source.c(32,9): warning C4477:  'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 1 has type 'double'
+  baitap.vcxproj -> C:\Users\HuuThuat\source\repos\baitap\Debug\baitap.exe

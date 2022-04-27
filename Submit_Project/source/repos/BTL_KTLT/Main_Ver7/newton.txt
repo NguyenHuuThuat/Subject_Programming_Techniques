@@ -1,0 +1,57 @@
+*.Da lua chon Item 1: Nhap cac moc (x,y) 
+  Bang cac moc noi suy da nhap la: 
+	x	1.00	2.00	3.00	
+   _____________________________________________________________________
+	y	0.00	0.69	1.010	
+_Goi y_: + Neu la moc cach deu chon Item 3 de in bang sai phan thuan !
+         + Neu la moc khong cach deu chon Item 2 de in bang ty hieu thuan !
+
+*.Da lua chon Item 7: Lap Bang sai phan NGHICH va in ra da thuc noi suy Newton tien cach deu 
+
+Bang sai phan NGHICH la: 
+
+	 x	 Y	 Y^1	 Y^2
+	1.00	0.00	
+	2.00	0.69	0.69	
+	3.00	1.010	0.41	-0.28	
+
+Da thuc Newton lui moc cach deu la: 
+P(x) = 1.10 + 0.41(x - 3.00) + -0.14(x - 3.00)(x - 2.00)
+_Goi y_: Tiep tuc chon Item 8 neu ban muon tinh gia tri cua da thuc tai 1 diem bang so do Hoocne !
+
+*. Da chon Item 8: In ra he so cua da thuc voi so mu lan luot 
+                   Tinh gia tri cua da thuc tai 1 diem bang so do hoocne 
+
+
+Ma tran he so la: 
+
+	1.010	0.00	0.00
+	-1.21	0.41	0.00
+	-0.86	0.72	-0.14
+He so mu cua da thuc la: 
+
+Mu 0 : -0.99
+Mu 1 : 1.22
+Mu 2 : -0.33
+
+
+Nhap gia tri can tinh : 
+1.500000
+Qua trinh tinh toan trong luoc do Hoocne: 
+
+Qua trinh tinh midP la: 
+midP(1) = -0.21
+midP(2) = 1.36
+
+
+Qua trinh tinh p la: 
+p(0) =  -0.14
+p(1) = 0.91
+p(2) = 0.38
+
+-0.14	1.12	-0.98
+
+	-0.21	1.36	
+-------------------------------------------------------------------
+-0.14	0.91	0.38	
+Gia tri cua da thuc tai 1.50 la: f( 1.50 ) = 0.38

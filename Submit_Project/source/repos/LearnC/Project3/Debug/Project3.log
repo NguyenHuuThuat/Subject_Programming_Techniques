@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\HuuThuat\source\repos\LearnC\Project3\Source.cpp(32,12): warning C4129: '%': unrecognized character escape sequence
+C:\Users\HuuThuat\source\repos\LearnC\Project3\Source.cpp(35,10): warning C4476: 'printf' : unknown type field character '%' in format specifier
+C:\Users\HuuThuat\source\repos\LearnC\Project3\Source.cpp(35,38): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\HuuThuat\source\repos\LearnC\Project3\Source.cpp(35,38): message : placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+  Project3.vcxproj -> C:\Users\HuuThuat\source\repos\LearnC\Debug\Project3.exe

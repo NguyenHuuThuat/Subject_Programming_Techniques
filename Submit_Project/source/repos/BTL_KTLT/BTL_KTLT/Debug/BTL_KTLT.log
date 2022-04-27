@@ -1,0 +1,3 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+  BTL_KTLT.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\BTL_KTLT.exe

@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(73,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(73,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(73,10): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(73,10): message : this argument is used as a buffer size
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(78,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(78,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(78,10): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(78,10): message : this argument is used as a buffer size
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(89,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(89,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(89,10): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\HuuThuat\source\repos\LearnC\QuanLySV\Source.cpp(89,10): message : this argument is used as a buffer size
+  QuanLySV.vcxproj -> C:\Users\HuuThuat\source\repos\LearnC\Debug\QuanLySV.exe

@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\HuuThuat\source\repos\LearnC\Project21\Source.cpp(24,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\HuuThuat\source\repos\LearnC\Project21\Source.cpp(24,10): message : consider using '%lld' in the format string
+C:\Users\HuuThuat\source\repos\LearnC\Project21\Source.cpp(24,10): message : consider using '%I64d' in the format string
+  Project21.vcxproj -> C:\Users\HuuThuat\source\repos\LearnC\Debug\Project21.exe

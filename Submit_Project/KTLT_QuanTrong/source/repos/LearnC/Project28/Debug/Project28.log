@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\HuuThuat\source\repos\LearnC\Project28\Source.cpp(5,9): warning C4101: 'm': unreferenced local variable
+C:\Users\HuuThuat\source\repos\LearnC\Project28\Source.cpp(5,12): warning C4101: 'n': unreferenced local variable
+  Project28.vcxproj -> C:\Users\HuuThuat\source\repos\LearnC\Debug\Project28.exe

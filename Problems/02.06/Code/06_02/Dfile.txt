@@ -1,0 +1,2 @@
+Day la file SFile.txt
+Noi dung se duoc sao chep sang file co ten la Dfile.txt

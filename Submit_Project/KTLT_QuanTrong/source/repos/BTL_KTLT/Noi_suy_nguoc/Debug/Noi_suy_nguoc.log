@@ -1,0 +1,21 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(16,11): warning C4476: 'scanf' : unknown type field character ' ' in format specifier
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(16,19): warning C4474: 'scanf' : too many arguments passed for format string
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(16,19): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(22,15): warning C4476: 'scanf' : unknown type field character ' ' in format specifier
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(22,23): warning C4474: 'scanf' : too many arguments passed for format string
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(22,23): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(24,15): warning C4476: 'scanf' : unknown type field character ' ' in format specifier
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(24,23): warning C4474: 'scanf' : too many arguments passed for format string
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(24,23): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(27,11): warning C4476: 'scanf' : unknown type field character ' ' in format specifier
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(27,19): warning C4474: 'scanf' : too many arguments passed for format string
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(27,19): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(65,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(16,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(22,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(24,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(27,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HuuThuat\source\repos\BTL_KTLT\Noi_suy_nguoc\Source.cpp(69,17): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  Noi_suy_nguoc.vcxproj -> C:\Users\HuuThuat\source\repos\BTL_KTLT\Debug\Noi_suy_nguoc.exe
